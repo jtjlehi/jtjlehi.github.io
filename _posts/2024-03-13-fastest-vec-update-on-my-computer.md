@@ -1,3 +1,9 @@
+---
+layout: post
+title: Fastest Vec Update on My Computer
+tags: rust performance walkthroughs
+---
+
 ## Fastest Vec Update on My Computer
 
 "Premature optimization is the root of all evil." At least that is what 'big java'

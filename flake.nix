@@ -9,6 +9,7 @@
       pkgs = import nixpkgs { inherit system; };
     in {
       devShells.default = pkgs.mkShell {
+        BUNDLE_FORCE_RUBY_PLATFORM=true;
         nativeBuildInputs = with pkgs; [
           jekyll
           rubyPackages.minima
