@@ -25,7 +25,7 @@ fn add_strs_panic(s1: &str, s2: &str) -> u32 {
 }  
 ```
 
-It may return an `Option`. This approaches will often utilize the combinators provided by the standard library like [`Option::ok`](https://doc.rust-lang.org/std/result/enum.Result.html#method.ok) in conjuction with the question mark operator.
+It may return an `Option`. This approaches will often utilize the combinators provided by the standard library like [`Result::ok`](https://doc.rust-lang.org/std/result/enum.Result.html#method.ok) in conjuction with the question mark operator.
 
 ```rust
 /// Parse the 2 strings into `u32`s and add the results
